@@ -76,6 +76,7 @@ html {
 .cards-container {
   display: flex;
   justify-content: space-evenly;
+  /* padding: 0 5%; */
 }
 
 .card-wrapper {
@@ -92,7 +93,7 @@ html {
   align-items: center;
   box-shadow: 1rem 1rem 1rem #000;
   position: relative;
-  transform: translateY(20deg) skewX(-2deg);
+  transform: rotateY(20deg) skewX(-2deg);
   transition: transform 0.5s, box-shadow 0.5s;
 }
 
@@ -111,7 +112,7 @@ html {
   left: -1rem;
   transform: skewY(45deg);
   transform-origin: right;
-  box-shadow: -0.1rem -0.1rem -0.1rem #000;
+  box-shadow: -0.1rem -0.1rem 0.1rem #000;
 }
 
 .card::after {
@@ -153,6 +154,6 @@ html {
   border: none;
   padding: 0.5rem 0;
   cursor: pointer;
-  box-shadow: -0.2rem -0.2rem -0.2rem #000;
+  box-shadow: -0.2rem -0.2rem 0.2rem #000;
 }
 /* End of section 2 */
